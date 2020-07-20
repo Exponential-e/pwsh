@@ -7,9 +7,6 @@
 # Updated   = 20/07/2020
 # Version   = 1.0
 # ========================================================================
-
-Get-NetAdapterAdvancedProperty
-
 Set-NetAdapterAdvancedProperty -DisplayName "IPv4 Checksum Offload" -DisplayValue "Disabled"
 Set-NetAdapterAdvancedProperty -DisplayName "IPv4 TSO Offload" -DisplayValue "Disabled"
 Set-NetAdapterAdvancedProperty -DisplayName "Large Send offload v2 (ipv4)" -DisplayValue "Disabled"
